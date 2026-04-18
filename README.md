@@ -25,14 +25,20 @@ Repositorio de prácticas de programación desarrollado por **Carlos Páez** dur
 │       └── ...
 │
 ├── PHP/                   # Prácticas en PHP
-│   └── MVC/               # Proyecto MVC en PHP
-│       ├── src/
-│       │   ├── Controlers/  # Controladores
-│       │   ├── Views/       # Vistas
-│       │   └── Models/      # Modelos
-│       ├── vendor/         # Dependencias Composer
-│       ├── composer.json
-│       └── DOCUMENTACION.md
+│   ├── MVC/               # Proyecto MVC en PHP
+│   │   ├── src/
+│   │   │   ├── Controlers/  # Controladores
+│   │   │   ├── Views/       # Vistas
+│   │   │   └── Models/      # Modelos
+│   │   ├── vendor/         # Dependencias Composer
+│   │   ├── composer.json
+│   │   └── DOCUMENTACION.md
+│   │
+│   └── old.zip            # Archivo comprimido legacy
+│
+├── Base de datos/         # Prácticas de Base de Datos
+│   ├── .idea/             # Configuración de JetBrains
+│   └── del_examen.sql     # Script de examen
 │
 └── numeric.zip           # Archivo comprimido adicional
 ```
@@ -54,12 +60,18 @@ Repositorio de prácticas de programación desarrollado por **Carlos Páez** dur
 - **Sesiones y Autenticación**: Login de usuarios
 - **CRUD**: Gestión de clientes, productos
 
+### Base de Datos
+
+- **SQL**: Consultas, transacciones
+- **MySQL**: Configuración y gestión de bases de datos
+
 ## Tecnologias Usadas
 
 | Lenguaje | Framework/Tecnología |
 |----------|----------------------|
 | C#       | .NET Framework, Windows Forms |
 | PHP      | MVC básico, Composer |
+| SQL      | MySQL |
 
 ## Cómo Usar
 
@@ -78,6 +90,14 @@ El proyecto MVC requiere un servidor PHP con Composer:
 cd PHP/MVC
 composer install
 # Configurar un servidor.local (XAMPP, WAMP, etc.)
+```
+
+### Base de Datos
+
+Ejecutar los scripts SQL en MySQL:
+
+```bash
+mysql -u usuario -p < Base de datos/del_examen.sql
 ```
 
 ## Autor
