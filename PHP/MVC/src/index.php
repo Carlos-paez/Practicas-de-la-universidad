@@ -13,5 +13,6 @@ $rutaVista = __DIR__ . '/controlers/' . $pagina . '.php';
     }
 
     else{
-        echo "Pagina no encontrada";
+        $error = "404";
+        $rutaVista = __DIR__ . '/controlers/' . $error . '.php';
     }
