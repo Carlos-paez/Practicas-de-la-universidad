@@ -13,9 +13,13 @@
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">⚡ EIS System</div>
         <nav class="nav">
-            <a href="#" class="nav-link" data-view="cyber"><span class="nav-icon">🖥️</span> Cyber</a>
-            <a href="#" class="nav-link" data-view="reportes"><span class="nav-icon">📈</span> Reportes</a>
-            <a href="#" class="nav-link" data-view="activos"><span class="nav-icon">🔧</span> Activos</a>
+            <a href="?pagina=dashboard" class="nav-link"><span class="nav-icon">📊</span> Dashboard</a>
+            <a href="?pagina=inventario" class="nav-link"><span class="nav-icon">📦</span> Inventario</a>
+            <a href="?pagina=ventas" class="nav-link"><span class="nav-icon">🛒</span> Ventas (POS)</a>
+            <a href="?pagina=proveedores" class="nav-link"><span class="nav-icon">📝</span> Solicitudes</a>
+            <a href="?pagina=ciberControl" class="nav-link active"><span class="nav-icon">🖥️</span> Cyber</a>
+            <a href="?pagina=reportes" class="nav-link"><span class="nav-icon">📈</span> Reportes</a>
+            <a href="?pagina=activos" class="nav-link"><span class="nav-icon">🔧</span> Activos</a>
         </nav>
     </aside>
 

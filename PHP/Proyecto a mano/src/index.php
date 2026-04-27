@@ -14,5 +14,6 @@ $rutaVista = __DIR__ . '/controlers/' . $pagina . '.php';
 
     else{
         $error = "404";
-        $rutaVista = __DIR__ . '/controlers/' . $error . '.php';
+        $error404 = __DIR__ . '/controlers/' . $error . '.php';
+        require_once $error404;
     }
