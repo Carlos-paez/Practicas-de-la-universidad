@@ -1,0 +1,15 @@
+{
+    "name": "carlos-paez/untitled",
+    "autoload": {
+        "psr-4": {
+            "CarlosPaez\\Untitled\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos-paez",
+            "email": "carlospaezguerra@gmail.com"
+        }
+    ],
+    "require": {}
+}
