@@ -1,0 +1,11 @@
+# Impedir que se pueda ver el listado de contenidos de un directorio
+Options All -Indexes
+
+# URLS AMIGABLES
+# Activar RewriteEngine
+RewriteEngine on
+
+# Evitar reescritura si ya se está accediendo a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(\w+)$ index.php?pagina=$1 [L,QSA]
