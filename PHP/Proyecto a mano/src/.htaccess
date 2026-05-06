@@ -5,6 +5,9 @@ Options All -Indexes
 # Activar RewriteEngine
 RewriteEngine on
 
+# Redirigir la raíz al dashboard (o login si no está autenticado)
+RewriteRule ^$ index.php [L,QSA]
+
 # Evitar reescritura si ya se está accediendo a index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
