@@ -1,6 +1,6 @@
 <?php
 
-$pagina = "menu";
+$pagina = "404";
 
 if (is_file('views/'. $pagina . '.php')) {
     require_once 'views/'. $pagina . '.php';
