@@ -2,16 +2,14 @@
 
 $pagina = "login";
 
-if(!empty($_GET["pagina"])){
+if (!empty($_GET["pagina"]) && is_string($_GET["pagina"])) {
     $pagina = $_GET["pagina"];
 }
 
-$rutaVista = dirname(__DIR__) .'/controllers/' . $pagina . '.php';
+$rutaVista = dirname(__DIR__).'/controllers/'.$pagina .'.php';
 
-if(is_file($rutaVista)){
+if (is_file($rutaVista)) {
     require_once $rutaVista;
-}
-
-else{
-    echo ("404");
+} else {
+    echo "404";
 }
