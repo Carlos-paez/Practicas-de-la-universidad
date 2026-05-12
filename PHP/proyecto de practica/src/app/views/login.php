@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu</title>
-    <link rel="stylesheet" href="src/public/styles/style.css">
-    <link rel="stylesheet" href="src/public/styles/login.css">
-    <link rel="stylesheet" href="src/public/styles/target.css">
-    <link rel="stylesheet" href="src/public/styles/background.css">
-    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="public/styles/login.css">
+    <link rel="stylesheet" href="public/styles/target.css">
+    <link rel="stylesheet" href="public/styles/background.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="src/public/styles/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="public/styles/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
 
@@ -277,7 +275,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="src/public/scripts/materialize.min.js"></script>
-<script type="text/javascript" src="src/public/scripts/script.js"></script>
+<script type="text/javascript" src="public/scripts/materialize.min.js"></script>
+<script type="text/javascript" src="public/scripts/script.js"></script>
 </body>
 </html>
