@@ -1,0 +1,8 @@
+Options All -Indexes
+
+RewriteEngine on
+
+# No reescribir archivos ni directorios existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?action=$1 [QSA,L]
