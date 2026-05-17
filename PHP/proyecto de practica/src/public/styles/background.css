@@ -22,8 +22,8 @@
     text-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
     user-select: none;
     transition:
-            color 0.5s,
-            text-shadow 0.5s;
+        color 0.5s,
+        text-shadow 0.5s;
     line-height: 1;
 }
 
@@ -74,20 +74,20 @@
     30% {
         color: rgba(100, 200, 255, 1);
         text-shadow:
-                0 0 10px rgba(100, 200, 255, 1),
-                0 0 15px rgba(100, 200, 255, 1);
+            0 0 10px rgba(100, 200, 255, 1),
+            0 0 15px rgba(100, 200, 255, 1);
     }
     50% {
         color: rgba(255, 105, 180, 1);
         text-shadow:
-                0 0 10px rgba(255, 105, 180, 1),
-                0 0 15px rgba(255, 105, 180, 1);
+            0 0 10px rgba(255, 105, 180, 1),
+            0 0 15px rgba(255, 105, 180, 1);
     }
     70% {
         color: #ffffff;
         text-shadow:
-                0 0 10px #fff,
-                0 0 15px #fff,
-                0 0 20px #fff;
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px #fff;
     }
 }
